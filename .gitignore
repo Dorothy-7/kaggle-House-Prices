@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 仮想環境
+venv/
+env/
+ENV/
+.venv
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# テスト・ビルド
+.pytest_cache/
+.coverage
+dist/
+build/
+*.egg-info/
+*.log
+
+# CatBoost 学習時のログ（リポジトリに含めない）
+catboost_info/
+
+# Kaggle コンペデータ（各自ダウンロードして data/ に配置）
+data/*.csv
+data/data_description.txt
