@@ -14,4 +14,4 @@ def default_data_dir() -> Path:
 
 
 def default_output_path() -> Path:
-    return project_root() / "outputs" / "submission_boxcox_5models_ensemble.csv"
+    return project_root() / "outputs" / "submission_house_prices_best.csv"
