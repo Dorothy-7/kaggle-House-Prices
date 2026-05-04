@@ -1,14 +1,13 @@
 from __future__ import annotations
 
-import numpy as np
 import lightgbm as lgb
+import numpy as np
 import xgboost as xgb
 from catboost import CatBoostRegressor
 from sklearn.linear_model import Lasso, Ridge
 from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import StandardScaler
-
 
 LGB_PARAMS = {
     "boosting_type": "gbdt",
